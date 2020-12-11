@@ -23,8 +23,8 @@ module.exports = {
         name: ` < juniorDeveloper />`,
         short_name: `jrDevs`,
         start_url: `/`,
-        background_color: `#000`,
-        theme_color: `#000`,
+        background_color: `#663399`,
+        theme_color: `#663399`,
         display: `standalone`,
         icon: `src/images/code-icon.svg`, // This path is relative to the root of the site.
 
