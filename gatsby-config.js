@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `juniorDeveloper`,
+    title: `< juniorDeveloper />`,
     description: `Where juniorDevelopers come to talk about all things TechnoWizardry and MechanicalWitch.`,
     author: `Brandon Brown`,
   },
@@ -20,11 +20,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `juniorDeveloper`,
-        short_name: `jrDev`,
+        name: ` < juniorDeveloper />`,
+        short_name: `jrDevs`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#000`,
+        theme_color: `#000`,
         display: `standalone`,
         icon: `src/images/code-icon.svg`, // This path is relative to the root of the site.
 
