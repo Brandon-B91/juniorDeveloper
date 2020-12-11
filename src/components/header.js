@@ -12,13 +12,14 @@ import {
   NavLink,
 } from 'reactstrap';
 
+
 const Header = ({ siteTitle }) => {
   const [isOpen, setIsOpen] = React.useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
   return (
     <div>
-      <Navbar color="light" fixed="top" expand="sm">
+      <Navbar fixed="top" light expand="sm">
         <div className="container">
         <NavbarBrand href="/">{siteTitle}</NavbarBrand>
         <NavbarToggler onClick={toggle} />
