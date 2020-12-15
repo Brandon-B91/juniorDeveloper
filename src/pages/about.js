@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 
 const AboutPage = () => (
   <Layout>
-    <h1>About us</h1>
+    <h1>About us.</h1>
   </Layout>
 )
 

@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 const TagsPage = () => (
   <Layout>
-    <h1>Tags</h1>
+    <h1>Search for blogs.</h1>
   </Layout>
 )
 
