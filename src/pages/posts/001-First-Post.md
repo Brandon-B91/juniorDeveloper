@@ -1,9 +1,11 @@
 ---
-title: 'First post - intro'
+title: "First post - intro"
 date: 2020-12-14 05:25:00
-author: 'Brandon Brown'
-path: '/first-post'
+author: "Brandon Brown"
+path: "/first-post"
 image: ../../images/bg.jpg
+tags:
+  - code
 ---
 
 Welcome to juniorDeveloper, I hope you enjoy my work!

@@ -31,11 +31,12 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer style={{
-          marginTop: `2rem`
+          marginTop: `2rem`,
+          marginBottom: '1rem'
         }}>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, Built by Junior devlepers, for Junior developers.
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          {/* <a href="https://www.gatsbyjs.com">Gatsby</a> */}
         </footer>
       </div>
     </>

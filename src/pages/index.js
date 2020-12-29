@@ -6,16 +6,14 @@ import { StaticQuery, graphql } from 'gatsby'
 import Post from "../components/Post"
 import ModalExample from "../components/ModalBtn"
 import { Row, Col } from 'reactstrap'
+import Sidebar from '../components/Sidebar'
 
 
 
 
 const IndexPage = () => (
   <Layout>
-    <h1>Home page.</h1>
-    {/* <div>
-    <p className="modal-p">Viewing this on your phone? for a more app like experience. <ModalExample></ModalExample></p>
-    </div> */}
+    <h1>Home page</h1>
     <Row>
       <Col md='8'>
       <StaticQuery 
@@ -29,8 +27,9 @@ const IndexPage = () => (
                 author={node.frontmatter.author}
                 path={node.frontmatter.path}
                 date={node.frontmatter.date}
-                body={node.frontmatter.excerpt}
+                body={node.excerpt}
                 fluid={node.frontmatter.image.childImageSharp.fluid}
+                tags={node.frontmatter.tags}
           />
         ))}
         
@@ -39,9 +38,7 @@ const IndexPage = () => (
     }}/>
       </Col>
       <Col md='4'>
-        <div className="div"> 
-
-        </div>
+        <Sidebar></Sidebar>
       </Col>
     </Row>
   </Layout>
@@ -53,11 +50,12 @@ query{
     edges{
       node{
         id
-        frontmatter{
+        frontmatter {
           title
           date(formatString: "MMM Do YYYY")
           author
           path
+          tags
           image{
             childImageSharp{
               fluid(maxWidth: 600){
