@@ -6,11 +6,9 @@ import { StaticQuery, graphql } from 'gatsby'
 import Post from "../components/Post"
 import { Row, Col } from 'reactstrap'
 import Sidebar from '../components/Sidebar'
-import Install from '../util/install'
 
 const IndexPage = () => (
   <Layout>
-    {/* <Install>Install our APP!</Install> */}
     <h1>Home page</h1>
     <Row>
       <Col md='8'>
