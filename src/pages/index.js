@@ -4,7 +4,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { StaticQuery, graphql } from 'gatsby'
 import Post from "../components/Post"
-import ModalExample from "../components/ModalBtn"
 import { Row, Col } from 'reactstrap'
 import Sidebar from '../components/Sidebar'
 import Install from '../util/install'
