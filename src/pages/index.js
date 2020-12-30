@@ -7,9 +7,7 @@ import Post from "../components/Post"
 import ModalExample from "../components/ModalBtn"
 import { Row, Col } from 'reactstrap'
 import Sidebar from '../components/Sidebar'
-
-
-
+import Install from '../util/install'
 
 const IndexPage = () => (
   <Layout>
