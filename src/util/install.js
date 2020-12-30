@@ -1,4 +1,4 @@
-const Install = () => {
+const Install = (prop) => {
 
 // Detects if device is on iOS 
 const isIos = () => {
@@ -12,7 +12,10 @@ const isIos = () => {
   if (isIos() && !isInStandaloneMode()) {
     this.setState({ showInstallMessage: true });
   }
+  return null;
 }
+
+
 
 module.exports = Install
 
