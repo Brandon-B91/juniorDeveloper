@@ -1,4 +1,4 @@
-const Install = (prop) => {
+const Install = () => {
 
 // Detects if device is on iOS 
 const isIos = () => {
