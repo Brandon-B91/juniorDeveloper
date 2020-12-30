@@ -50,7 +50,7 @@ module.exports = {
             options: {
                 name: ` < juniorDeveloper />`,
                 short_name: `jrDevs`,
-                start_url: `index.html`,
+                start_url: `/`,
                 background_color: `#663399`,
                 theme_color: `#663399`,
                 display: `standalone`,
