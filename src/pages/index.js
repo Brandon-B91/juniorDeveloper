@@ -11,7 +11,7 @@ import Install from '../util/install'
 
 const IndexPage = () => (
   <Layout>
-    <Install></Install>
+    <Install>Install our APP!</Install>
     <h1>Home page</h1>
     <Row>
       <Col md='8'>

@@ -17,7 +17,7 @@ const isIos = () => {
 
 
 
-module.exports = Install
+export default Install
 
 
 
