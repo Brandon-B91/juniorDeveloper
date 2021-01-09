@@ -8,9 +8,9 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
 import Header from "./header"
 import "../styles/index.scss"
+import Footer from './Footer'
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -25,20 +25,15 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossOrigin="anonymous"></link>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div className="container" id="content"
-        
-      >
+      <div className="container" id="content" >
         <main>{children}</main>
-        <footer style={{
-          marginTop: `2rem`,
-          marginBottom: '1rem'
-        }}>
-          © {new Date().getFullYear()}, Built by Junior devlepers, for Junior developers.
-          {` `}
-          {/* <a href="https://www.gatsbyjs.com">Gatsby</a> */}
-        </footer>
+
       </div>
+      <Footer>
+
+      </Footer>
     </>
   )
 }
