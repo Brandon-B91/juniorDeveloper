@@ -1,8 +1,9 @@
 import React from 'react'
-import { Card, CardTitle, CardBody, Form, FormGroup, Input, Button } from 'reactstrap'
+import { Card, CardTitle, CardBody, Form, FormGroup, Input, Badge, CardSubtitle } from 'reactstrap'
 import {graphql, StaticQuery, Link} from 'gatsby'
 import { node } from 'prop-types'
 import Img from 'gatsby-image'
+import slugify from '../util/utilityFunctions'
 
 const Sidebar = () => (
     <div> 
@@ -31,7 +32,7 @@ const Sidebar = () => (
         <Card>
             <CardBody>
                 <CardTitle className="text-center text-uppercase mb-3">
-                    recent posts
+                    New? Start here!
                 </CardTitle>
                 <StaticQuery query={sidebarQuery} render={(data) => (
                     <div>
@@ -46,6 +47,11 @@ const Sidebar = () => (
                                         {node.frontmatter.title}
                                     </Link>
                                 </CardTitle>
+                                <CardSubtitle>
+                                    <span className="text-danger">{node.frontmatter.date}</span> by{' '}
+                                    <span className="text-danger">{node.frontmatter.author}</span>
+                                </CardSubtitle>
+                                {node.excerpt}
                             </CardBody>
                         </Card>
                     ))}
@@ -71,6 +77,8 @@ const sidebarQuery = graphql `
                     id
                     frontmatter{
                         title
+                        author
+                        date(formatString: "MMM Do YYYY")
                         tags 
                         image{
                             childImageSharp{

@@ -6,8 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const TagsPage = () => (
-  <Layout>
-    <h1>Search for blogs</h1>
+  <Layout pageTitle="All Tags">
   </Layout>
 )
 
