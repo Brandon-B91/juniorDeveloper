@@ -2,7 +2,6 @@
 title: "Second post - html5"
 date: 2020-12-15 05:25:00
 author: "Brandon Brown"
-path: "/second-post"
 image: ../../images/bg.jpg
 tags:
   - code
