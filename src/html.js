@@ -21,7 +21,7 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-        <script src="./src/util/install.js"></script>
+        <script src="/util/install.js"></script>
       </body>
     </html>
   )

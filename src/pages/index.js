@@ -7,7 +7,7 @@ import Post from "../components/Post"
 
 
 const IndexPage = () => (
-  <Layout >
+  <Layout>
     <h2 className="text-center">{'< juniorDeveloper /> '}</h2>
       <StaticQuery 
         query={indexQuery} 
