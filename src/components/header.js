@@ -11,12 +11,11 @@ import {
   NavItem,
   NavLink,
 } from 'reactstrap';
-import Install from "../util/install"
+
 
 
 const Header = ({ siteTitle }) => {
   const [isOpen, setIsOpen] = React.useState(false);
-  <Install></Install>
   const toggle = () => setIsOpen(!isOpen);
   return (
     <div>
