@@ -5,6 +5,7 @@ author: "Brandon Brown"
 image: ../../images/bg.jpg
 tags:
   - code
+  - intro
 ---
 
 Welcome to juniorDeveloper, I hope you enjoy my work!

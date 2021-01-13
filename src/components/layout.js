@@ -23,13 +23,12 @@ const Layout = ({ children, pageTitle }) => {
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossOrigin="anonymous"></link>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div className="container" id="content" >
-      <h1>{pageTitle}</h1>
-        <Row>
-          <Col md="8">{children}</Col>
-          <Col md="4"><Sidebar></Sidebar></Col>
-        </Row>
-        {/* <main>{children}</main> */}
-
+        <h1>{pageTitle}</h1>
+          <Row>
+            <Col md="8">{children}</Col>
+            <Col md="4"><Sidebar></Sidebar></Col>
+          </Row>
+          {/* <main>{children}</main> */}
       </div>
       <Footer>
 

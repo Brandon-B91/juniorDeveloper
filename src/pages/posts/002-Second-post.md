@@ -6,6 +6,7 @@ image: ../../images/bg.jpg
 tags:
   - code
   - design
+  - intro
 ---
 
 Today we are going to talk about HTML5! Today we are going to talk about HTML5! Today we are going to talk about HTML5! Today we are going to talk about HTML5! Today we are going to talk about HTML5! Today we are going to talk about HTML5! Today we are going to talk about HTML5! Today we are going to talk about HTML5!

@@ -5,8 +5,10 @@ import SEO from "../components/seo"
 import { StaticQuery, graphql } from 'gatsby'
 import Post from "../components/Post"
 
+
 const IndexPage = () => (
-  <Layout pageTitle="< juniorDeveloper />">
+  <Layout >
+    <h2 className="text-center">{'< juniorDeveloper /> '}</h2>
       <StaticQuery 
         query={indexQuery} 
         render={data => {

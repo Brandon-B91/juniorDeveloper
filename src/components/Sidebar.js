@@ -3,9 +3,8 @@ import { Card, CardTitle, CardBody, Form, FormGroup, Input, Badge, CardSubtitle 
 import {graphql, StaticQuery, Link} from 'gatsby'
 import { node } from 'prop-types'
 import Img from 'gatsby-image'
-import slugify from '../util/utilityFunctions'
 
-const Sidebar = () => (
+const Sidebar = (title, author, slug, date, body, fluid, tags) => (
     <div> 
         <Card>
             <CardBody>
@@ -34,18 +33,23 @@ const Sidebar = () => (
                 <CardTitle className="text-center text-uppercase mb-3">
                     New? Start here!
                 </CardTitle>
-                <StaticQuery query={sidebarQuery} render={(data) => (
-                    <div>
-                    {data.allMarkdownRemark.edges.map(({node}) => (
-                        <Card key={node.id}>
+                <StaticQuery
+                    query={sidebarQuery}
+                    render={data => (
+                        <div>
+                        {data.allMarkdownRemark.edges.map(({ node }) => (
+                            <Card key={node.id}>
                             <Link to={node.fields.slug}>
-                            <Img className="card-image-top" fluid={node.frontmatter.image.childImageSharp.fluid}></Img>
+                                <Img
+                                className="card-image-top"
+                                fluid={node.frontmatter.image.childImageSharp.fluid}
+                                />
                             </Link>
                             <CardBody>
                                 <CardTitle>
-                                    <Link to={node.fields.slug}>
-                                        {node.frontmatter.title}
-                                    </Link>
+                                <Link to={node.fields.slug}>
+                                    {node.frontmatter.title}
+                                </Link>
                                 </CardTitle>
                                 <CardSubtitle>
                                     <span className="text-danger">{node.frontmatter.date}</span> by{' '}
@@ -53,21 +57,22 @@ const Sidebar = () => (
                                 </CardSubtitle>
                                 {node.excerpt}
                             </CardBody>
-                        </Card>
-                    ))}
-                    </div>
-                )}></StaticQuery>
+                            </Card>
+                        ))}
+                        </div>
+                    )}
+                    />
             </CardBody>
         </Card>
     </div>
 )
 
-const sidebarQuery = graphql `
+const sidebarQuery = graphql`
     query sidebarQuery {
         allMarkdownRemark(
             filter: {
-                frontmatter: { tags: { eq: "intro" }}
-            }
+                    frontmatter: { tags: { eq: "intro" }}
+                }
             sort: { fields: [frontmatter___date], order: DESC}
             limit: 3
 
@@ -91,7 +96,11 @@ const sidebarQuery = graphql `
                     fields{
                         slug
                     }
-                    excerpt
+                    excerpt (
+                        format: PLAIN
+                        pruneLength: 60
+                        truncate: true
+                    )
                 }
             }
         }
