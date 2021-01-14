@@ -9,7 +9,7 @@ const Sidebar = (title, author, slug, date, body, fluid, tags) => (
         <Card>
             <CardBody>
                 <CardTitle className="text-center text-upppercase mb-3">
-                    NewsLetter.
+                    NewsLetter
                 </CardTitle>
                 <Form className="text-center">
                     <FormGroup>
@@ -23,7 +23,7 @@ const Sidebar = (title, author, slug, date, body, fluid, tags) => (
         <Card>
             <CardBody>
                 <CardTitle className="text-center text-uppercase">
-                    Advertisement.
+                    Advertisement
                 </CardTitle>
                 <img src="https://via.placeholder.com/320x320" alt="advert" style={{width: "100%"}}></img>
             </CardBody>

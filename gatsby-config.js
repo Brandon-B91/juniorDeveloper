@@ -62,11 +62,5 @@ module.exports = {
         // To learn more, visit: https://gatsby.dev/offline
         `gatsby-plugin-offline`,
         'gatsby-transformer-remark',
-        {
-          resolve: 'gatsby-plugin-sw',
-          options: {
-            swPath: 'src/sw.js'
-          }
-        }
     ],
 }
