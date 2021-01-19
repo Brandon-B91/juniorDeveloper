@@ -23,9 +23,9 @@ const Sidebar = (title, author, slug, date, body, fluid, tags) => (
         <Card>
             <CardBody>
                 <CardTitle className="text-center text-uppercase">
-                    Advertisement
+                    Advertisementgitt 
                 </CardTitle>
-                <img src="https://via.placeholder.com/320x320" alt="advert" style={{width: "100%"}}></img>
+                <img src="https://source.unsplash.com/random/320x320" alt="advert" style={{width: "100%"}}></img>
             </CardBody>
         </Card>
         <Card>
