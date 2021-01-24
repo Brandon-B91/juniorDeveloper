@@ -6,6 +6,7 @@
   "author": "Brandon Brown <brandonbrown0169@gmail.com>",
   "dependencies": {
     "bootstrap": "^4.5.3",
+    "disqus-react": "^1.0.10",
     "eslint": "^7.16.0",
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",

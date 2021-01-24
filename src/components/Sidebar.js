@@ -46,7 +46,7 @@ const Sidebar = ( {author, authorFluid} ) => (
                 <CardTitle className="text-center text-uppercase">
                     Advertisement
                 </CardTitle>
-                <img src="https://source.unsplash.com/random/320x320" alt="advert" style={{width: "100%"}}></img>
+                <img src="https://source.unsplash.com/random/320x200" alt="advert" style={{width: "100%"}}></img>
             </CardBody>
         </Card>
         <Card>
