@@ -9,15 +9,15 @@ const authors = [
         twitter: 'https://twitter.com/brandonb91',
     },
 
-    {
-        name: "Victoria Rodriguez",
-        imageUrl: 'author-pic.jpeg',
-        bio: 'Vicrtoria is a mean poo poo head who likes to abuse poor Brandon all the time.',
-        facebook: 'https://facebook.com/brandonb91',
-        instagram: 'https://instagram.com/brandonb91',
-        linkedin: 'https://linkedin.com/brandonb91',
-        twitter: 'https://twitter.com/brandonb91',
-    },
+    // {
+    //     name: "Victoria Rodriguez",
+    //     imageUrl: 'author-pic.jpeg',
+    //     bio: 'Vicrtoria is a mean poo poo head who likes to abuse poor Brandon all the time.',
+    //     facebook: 'https://facebook.com/brandonb91',
+    //     instagram: 'https://instagram.com/brandonb91',
+    //     linkedin: 'https://linkedin.com/brandonb91',
+    //     twitter: 'https://twitter.com/brandonb91',
+    // },
 ]
 
 
