@@ -120,8 +120,8 @@ const Sidebar = ({ author, authorFluid }) => (
                     />
                   </Link>
                   <CardBody>
-                    <CardTitle>
-                      <Link to={node.fields.slug}>
+                    <CardTitle className="text-center">
+                      <Link to={node.fields.slug} className="text-danger text-center">
                         {node.frontmatter.title}
                       </Link>
                     </CardTitle>
