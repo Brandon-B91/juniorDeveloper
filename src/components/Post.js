@@ -25,7 +25,7 @@ const Post = ({ title, author, slug, date, body, fluid, tags }) => {
                       </li>
                   ))}  
                 </ul>
-                <Link to={slug} className="btn btn-outline-secondary float-right">Read more...</Link>
+                <Link to={`/${slug}`} className="btn btn-outline-secondary float-right">Read more...</Link>
             </CardBody>
         </Card>
     )
