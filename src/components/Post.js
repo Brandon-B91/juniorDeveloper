@@ -10,7 +10,7 @@ const Post = ({ title, author, slug, date, body, fluid, tags }) => {
             <Img className="card-image-top" fluid={fluid} />
             </Link>
             <CardBody>
-                <CardTitle><Link to={`/{slug}`} className="text-danger d-flex justify-content-center h3">{title}</Link></CardTitle>
+                <CardTitle><Link to={`/${slug}`} className="text-danger d-flex justify-content-center h3">{title}</Link></CardTitle>
                 <CardSubtitle>
                     <span className="text-danger">{date}</span> by{' '}
                     <span className="text-danger">{author}</span>
