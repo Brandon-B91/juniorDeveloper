@@ -43,7 +43,7 @@ const IndexPage = () => {
  }
 
 const indexQuery = graphql`
-query indexQuery {
+query {
   allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC}
     limit: 2
     ) {
