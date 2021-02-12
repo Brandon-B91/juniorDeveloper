@@ -1,9 +1,11 @@
 import React from 'react'
+import PropTypes from "prop-types"
+
 
 const Footer = () => (
     <div className="site-footer">
         <h4 className="text-center">
-            {'< juniorDeveloper />'}
+            {'< jrDevsBlog />'}
         </h4>
         <p className="text-center">Follow us on social media</p>
         <div className="footer-social-links">

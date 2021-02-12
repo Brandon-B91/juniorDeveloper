@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 import { StaticQuery, graphql } from 'gatsby'
 import Post from "../components/Post"
 import PaginationLinks  from '../components/PaginationLinks'
+import AddToHomeScreen from 'gatsby-plugin-pwainstall'
 
 
 
@@ -34,6 +35,9 @@ const IndexPage = () => {
           />
         ))}
         <PaginationLinks currentPage={1} numberOfPages={numberOfPages} />
+        <AddToHomeScreen suspend='2' acceptedUri='/' dismmissedUri='/'>
+				  Install Our App
+			</AddToHomeScreen>
       </div>
       )
     }}

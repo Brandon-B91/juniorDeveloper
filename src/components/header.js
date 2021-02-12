@@ -1,7 +1,6 @@
 
 import PropTypes from "prop-types"
 import React from "react"
-// import React, { useEffect, useState } from "react";
 import {
   Collapse,
   Navbar,
@@ -21,7 +20,6 @@ const Header = ({ siteTitle }) => {
     <div>
       <Navbar fixed="top" light expand="sm">
         <div className="container">
-  
         <NavbarBrand href="/">{siteTitle}</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
