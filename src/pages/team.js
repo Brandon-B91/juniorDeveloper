@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import authors from '../util/author'
 import { Button, Card, CardText, CardBody, CardTitle, Row } from 'reactstrap'
-import BrandonImage from '../images/author-pic.jpeg'
+import BrandonImage from '../images/Brandon.jpeg'
 import { slugify } from '../util/utilityFunctions'
 
 const TeamPage = () => (
@@ -20,9 +20,8 @@ const TeamPage = () => (
             <CardText>{authors[0].bio}</CardText>
             <Button
               classname="text-uppercase"
-              color="secondary"
-              href={`/author/${slugify(authors[0].name)}`}
-            >
+              color="outline-secondary"
+              href={`/author/${slugify(authors[0].name)}`}>
               View posts
             </Button>
           </CardBody>

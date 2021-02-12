@@ -11,7 +11,6 @@ import {
   CardText,
 } from "reactstrap"
 import { graphql, StaticQuery, Link } from "gatsby"
-import { node } from "prop-types"
 import Img from "gatsby-image"
 
 const Sidebar = ({ author, authorFluid }) => (
@@ -20,7 +19,7 @@ const Sidebar = ({ author, authorFluid }) => (
       <Card>
         <Img className="card-image-top" fluid={authorFluid} />
         <CardBody>
-          <CardTitle className="text-center text-uppercase mb-3">
+          <CardTitle className="text-center text-uppercase mb-3 text-md">
             {author.name}
           </CardTitle>
           <CardText>{author.bio}</CardText>

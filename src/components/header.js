@@ -21,6 +21,7 @@ const Header = ({ siteTitle }) => {
     <div>
       <Navbar fixed="top" light expand="sm">
         <div className="container">
+  
         <NavbarBrand href="/">{siteTitle}</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

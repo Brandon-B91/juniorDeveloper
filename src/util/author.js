@@ -1,7 +1,7 @@
 const authors = [
     {
         name: "Brandon Brown",
-        imageUrl: 'author-pic.jpeg',
+        imageUrl: 'Brandon.jpeg',
         bio: 'Brandon is a junior web developer documenting his experiences while trying to break into the world of web developtment full time.',
         facebook: 'https://facebook.com/brandonb91',
         instagram: 'https://instagram.com/brandonb91',
