@@ -35,9 +35,6 @@ const IndexPage = () => {
           />
         ))}
         <PaginationLinks currentPage={1} numberOfPages={numberOfPages} />
-        <AddToHomeScreen suspend='2' acceptedUri='/' dismmissedUri='/'>
-				  Install Our App
-			</AddToHomeScreen>
       </div>
       )
     }}
