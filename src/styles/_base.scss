@@ -27,9 +27,14 @@ h1 {
 .navbar-light .navbar-brand {
   color: #333;
   &:hover {
-    color: #333;
+    color: red;
   }
 }
+
+.fa-arrow-left {
+  display: none;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -38,5 +43,7 @@ ul {
 footer {
   margin-bottom: 5%;
 }
+
+
 
 

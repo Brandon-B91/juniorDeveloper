@@ -49,8 +49,8 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: ` < juniorDeveloper />`,
-                short_name: `jrDevs`,
+                name: ` < jrDevsBlog />`,
+                short_name: `jrDevsBlog`,
                 start_url: `/`,
                 background_color: `#000000`,
                 theme_color: `#000000`,
@@ -63,5 +63,18 @@ module.exports = {
         // To learn more, visit: https://gatsby.dev/offline
         `gatsby-plugin-offline`,
         'gatsby-transformer-remark',
+        {
+          resolve: `gatsby-plugin-google-gtag`,
+          options: {
+            trackingId: 'UA-189697953-1',
+          },
+        },
+        {
+          resolve: 'gatsby-plugin-mailchimp',
+          options: {
+            endpoint: "https://gmail.us1.list-manage.com/subscribe/post?u=429c539bd60c4b16c9b79b902&amp;id=2228b02ef1",
+            timeout: 3500,
+          }
+        },
     ],
 }

@@ -3,9 +3,9 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "../styles/index.scss"
-import Footer from './Footer'
-import { Row, Col } from 'reactstrap'
-import Sidebar from './Sidebar'
+import Footer from "./Footer"
+import { Row, Col } from "reactstrap"
+import Sidebar from "./Sidebar"
 
 const Layout = ({ authorImageFluid, children, pageTitle, postAuthor }) => {
   const data = useStaticQuery(graphql`
@@ -20,21 +20,24 @@ const Layout = ({ authorImageFluid, children, pageTitle, postAuthor }) => {
 
   return (
     <>
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossOrigin="anonymous"></link>
+      <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+        crossOrigin="anonymous"
+      ></link>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div className="container" id="content" >
+      <div className="container" id="content">
         <h1>{pageTitle}</h1>
-          <Row>
-            <Col md="8">{children}</Col>
-            <Col md="4">
-              <Sidebar author={postAuthor} authorFluid={authorImageFluid} />
-            </Col>
-          </Row>
-          {/* <main>{children}</main> */}
+        <Row>
+          <Col md="8">{children}</Col>
+          <Col md="4">
+            <Sidebar author={postAuthor} authorFluid={authorImageFluid} />
+          </Col>
+        </Row>
+        {/* <main>{children}</main> */}
       </div>
-      <Footer>
-
-      </Footer>
+      <Footer></Footer>
     </>
   )
 }
@@ -44,4 +47,3 @@ Layout.propTypes = {
 }
 
 export default Layout
-

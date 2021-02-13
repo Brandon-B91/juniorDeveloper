@@ -3,15 +3,13 @@ import {
   Card,
   CardTitle,
   CardBody,
-  Form,
-  FormGroup,
-  Input,
-  Badge,
   CardSubtitle,
   CardText,
 } from "reactstrap"
 import { graphql, StaticQuery, Link } from "gatsby"
 import Img from "gatsby-image"
+import Email from './Email'
+
 
 const Sidebar = ({ author, authorFluid }) => (
   <div>
@@ -73,20 +71,8 @@ const Sidebar = ({ author, authorFluid }) => (
     <Card>
       <CardBody>
         <CardTitle className="text-center text-upppercase mb-3">
-          NewsLetter
+          <Email> </Email>
         </CardTitle>
-        <Form className="text-center">
-          <FormGroup>
-            <Input
-              type="email"
-              name="email"
-              placeholder="Your email here..."
-            ></Input>
-          </FormGroup>
-          <button className="btn btn-outline-secondary text-uppercase">
-            Subscribe
-          </button>
-        </Form>
       </CardBody>
     </Card>
     <Card>
@@ -120,7 +106,12 @@ const Sidebar = ({ author, authorFluid }) => (
                   </Link>
                   <CardBody>
                     <CardTitle className="text-center">
-                    <Link className="text-danger" to={`/${node.fields.slug}/`}>                        {node.frontmatter.title}
+                      <Link
+                        className="text-danger"
+                        to={`/${node.fields.slug}/`}
+                      >
+                        {" "}
+                        {node.frontmatter.title}
                       </Link>
                     </CardTitle>
                     <CardSubtitle>
