@@ -64,12 +64,6 @@ module.exports = {
         `gatsby-plugin-offline`,
         'gatsby-transformer-remark',
         {
-          resolve: `gatsby-plugin-google-gtag`,
-          options: {
-            trackingId: 'UA-189697953-1',
-          },
-        },
-        {
           resolve: 'gatsby-plugin-mailchimp',
           options: {
             endpoint: "https://gmail.us1.list-manage.com/subscribe/post?u=429c539bd60c4b16c9b79b902&amp;id=2228b02ef1",
