@@ -4,7 +4,9 @@ import PropTypes from "prop-types"
 const Footer = () => (
   <div className="site-footer">
     <h4 className="text-center">{"< jrDevsBlog />"}</h4>
-    <p className="text-center">Follow us on social media</p>
+    <p className="text-center">
+      Follow us on social media! have feed back? Send us an Email!
+      </p>
     <div className="footer-social-links">
       <ul className="social-links-list">
         <li>
@@ -37,7 +39,7 @@ const Footer = () => (
             <i className="fab fa-instagram fa-2x"></i>
           </a>
         </li>
-        <li>
+        {/* <li>
           <a
             href="https://facebook.com"
             target="_blank"
@@ -45,6 +47,16 @@ const Footer = () => (
             className="linkedin"
           >
             <i className="fab fa-linkedin fa-2x"></i>
+          </a>
+        </li> */}
+                <li>
+          <a
+            href="mailto:jrdevsblog@gmail.com"
+            target="_blank"
+            rel="noopener noreffer"
+            className="instagram"
+          >
+            <i class="fas fa-envelope fa-2x"></i>
           </a>
         </li>
       </ul>

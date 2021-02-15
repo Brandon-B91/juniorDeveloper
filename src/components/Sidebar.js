@@ -10,7 +10,6 @@ import { graphql, StaticQuery, Link } from "gatsby"
 import Img from "gatsby-image"
 import Email from './Email'
 
-
 const Sidebar = ({ author, authorFluid }) => (
   <div>
     {author && (
@@ -23,19 +22,19 @@ const Sidebar = ({ author, authorFluid }) => (
           <CardText>{author.bio}</CardText>
           <div className="author-social-links text-center">
             <ul>
-              <li>
+              {/* <li>
                 <a
-                  href="{author.facebook}"
+                  href={author.facebook}
                   target="_blank"
                   rel="noopener noreffer"
                   className="facebook"
                 >
                   <i className="fab fa-facebook-f fa-lg"></i>
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a
-                  href="{author.twitter}"
+                  href={author.twitter}
                   target="_blank"
                   rel="noopener noreffer"
                   className="twitter"
@@ -45,7 +44,7 @@ const Sidebar = ({ author, authorFluid }) => (
               </li>
               <li>
                 <a
-                  href="{author.instagram}"
+                  href={author.instagram}
                   target="_blank"
                   rel="noopener noreffer"
                   className="instagram"
@@ -55,7 +54,7 @@ const Sidebar = ({ author, authorFluid }) => (
               </li>
               <li>
                 <a
-                  href="{author.linkedin}"
+                  href={author.linkedin}
                   target="_blank"
                   rel="noopener noreffer"
                   className="linkedin"

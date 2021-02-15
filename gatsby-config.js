@@ -46,6 +46,21 @@ module.exports = {
         },
         `gatsby-transformer-sharp`,
         `gatsby-plugin-sharp`,
+        'gatsby-transformer-remark',
+        {
+          resolve: 'gatsby-transformer-remark',
+          options: {
+            plugins: [
+              {
+                resolve: 'gatsby-remark-images',
+                options: {
+                  maxWidth: 650
+                }
+              }
+            ]
+          }
+        },
+
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
@@ -62,7 +77,6 @@ module.exports = {
         // this (optional) plugin enables Progressive Web App + Offline functionality
         // To learn more, visit: https://gatsby.dev/offline
         `gatsby-plugin-offline`,
-        'gatsby-transformer-remark',
         {
           resolve: 'gatsby-plugin-mailchimp',
           options: {

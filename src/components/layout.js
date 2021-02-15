@@ -35,7 +35,6 @@ const Layout = ({ authorImageFluid, children, pageTitle, postAuthor }) => {
             <Sidebar author={postAuthor} authorFluid={authorImageFluid} />
           </Col>
         </Row>
-        {/* <main>{children}</main> */}
       </div>
       <Footer></Footer>
     </>

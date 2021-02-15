@@ -1,10 +1,3 @@
-/**
- * Implement Gatsby's Browser APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/browser-apis/
- */
-
-// You can delete this file if you're not using it
 
 export const onServiceWorkerUpdateReady = () => {
     const answer = window.confirm(
@@ -14,7 +7,7 @@ export const onServiceWorkerUpdateReady = () => {
   
     if (answer === true) {
       window.location.reload()
-    }
-
+    } 
+    
     window.location.reload()
 }
