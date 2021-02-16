@@ -2,7 +2,7 @@
 title: "Introduction"
 date: 2021-2-14 12:00:00
 author: "Brandon Brown"
-image: ../../images/images-front/intro.jpg
+image: ../../images/images-front/intro.jpeg
 tags:
   - intro
   - personal
