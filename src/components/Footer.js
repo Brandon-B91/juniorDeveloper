@@ -1,5 +1,5 @@
 import React from "react"
-import PropTypes from "prop-types"
+
 
 const Footer = () => (
   <div className="site-footer">
@@ -13,7 +13,7 @@ const Footer = () => (
           <a
             href="https://facebook.com"
             target="_blank"
-            rel="noopener noreffer"
+            rel="noopener noreferrer"
             className="facebook"
           >
             <i className="fab fa-facebook-f fa-2x"></i>
@@ -23,7 +23,7 @@ const Footer = () => (
           <a
             href="https://facebook.com"
             target="_blank"
-            rel="noopener noreffer"
+            rel="noopener noreferrer"
             className="twitter"
           >
             <i className="fab fa-twitter fa-2x"></i>
@@ -33,7 +33,7 @@ const Footer = () => (
           <a
             href="https://facebook.com"
             target="_blank"
-            rel="noopener noreffer"
+            rel="noopener noreferrer"
             className="instagram"
           >
             <i className="fab fa-instagram fa-2x"></i>
@@ -43,7 +43,7 @@ const Footer = () => (
           <a
             href="https://facebook.com"
             target="_blank"
-            rel="noopener noreffer"
+            rel="noopener noreferrer"
             className="linkedin"
           >
             <i className="fab fa-linkedin fa-2x"></i>
@@ -53,7 +53,7 @@ const Footer = () => (
           <a
             href="mailto:jrdevsblog@gmail.com"
             target="_blank"
-            rel="noopener noreffer"
+            rel="noopener noreferrer"
             className="instagram"
           >
             <i class="fas fa-envelope fa-2x"></i>

@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../components/layout"
-import Sidebar from "../components/Sidebar"
 import { graphql, Link } from "gatsby"
 import SEO from "../components/seo"
 import { Badge, Card, CardBody, CardSubtitle } from "reactstrap"
@@ -12,9 +11,9 @@ import { DiscussionEmbed } from "disqus-react"
 const SinglePost = ({ data, pageContext }) => {
   const post = data.markdownRemark.frontmatter
   const author = authors.find(x => x.name === post.author)
-  const baseUrl = "https-wonderful-dubinsky-46e477-netlify-app"
+  const baseUrl = "https://www.jrdevsblog.com"
 
-  const disqusShortname = "https-wonderful-dubinsky-46e477-netlify-app"
+  const disqusShortname = "https-www-jrdevsblog-com"
   const disqusConfig = {
     identifier: data.markdownRemark.id,
     title: post.title,
@@ -63,7 +62,7 @@ const SinglePost = ({ data, pageContext }) => {
               }
               className="facebook"
               target="_blank"
-              rel="noopener norefferer"
+              rel="noopener noreferrer"
             >
               <i className="fab fa-facebook-f fa-2x"></i>
             </a>
@@ -81,7 +80,7 @@ const SinglePost = ({ data, pageContext }) => {
               }
               className="twitter"
               target="_blank"
-              rel="noopener norefferer"
+              rel="noopener noreferrer"
             >
               <i className="fab fa-twitter fa-2x"></i>
             </a>
@@ -95,7 +94,7 @@ const SinglePost = ({ data, pageContext }) => {
               }
               className="google"
               target="_blank"
-              rel="noopener norefferer"
+              rel="noopener noreferrer"
             >
               <i className="fab fa-google fa-2x"></i>
             </a>
@@ -109,7 +108,7 @@ const SinglePost = ({ data, pageContext }) => {
               }
               className="linkedin"
               target="_blank"
-              rel="noopener norefferer"
+              rel="noopener noreferrer"
             >
               <i className="fab fa-linkedin fa-2x"></i>
             </a>

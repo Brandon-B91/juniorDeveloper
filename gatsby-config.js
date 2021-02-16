@@ -2,7 +2,7 @@ module.exports = {
     siteMetadata: {
         title: `< jrDevsBlog />`,
         titleTemplate: `< jrDevBlog />`,
-        description: `Where juniorDevelopers come to talk about all things TechnoWizardry and MechanicalWitch.`,
+        description: `Where juniorDevelopers come to talk about all things TechnoWizardry and Mechanical wtichcraft.`,
         author: `Brandon Brown`,
     },
     plugins: [

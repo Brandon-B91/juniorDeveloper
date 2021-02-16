@@ -59,8 +59,7 @@ exports.createPages = async ({ actions, graphql }) => {
         // Passing slug for template to use to fetch the post
         slug: node.fields.slug,
         // Find author imageUrl from author array and pass it to template
-        imageUrl: authors.find(x => x.name === node.frontmatter.author)
-          .imageUrl,
+        imageUrl: authors.find(x => x.name === node.frontmatter.author).imageUrl,
       },
     })
   })

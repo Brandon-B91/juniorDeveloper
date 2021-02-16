@@ -1,7 +1,5 @@
-import React, { useState } from "react"
-import { Link } from "gatsby"
+import React from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 import { StaticQuery, graphql } from "gatsby"
 import Post from "../components/Post"
 import PaginationLinks from "../components/PaginationLinks"
