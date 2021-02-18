@@ -1,5 +1,6 @@
 import React from "react"
 import {
+  Button,
   Card,
   CardTitle,
   CardBody,
@@ -8,13 +9,15 @@ import {
 } from "reactstrap"
 import { graphql, StaticQuery, Link } from "gatsby"
 import Img from "gatsby-image"
-import Email from './Email'
+import Email from "./Email"
+import { slugify } from "../util/utilityFunctions"
+import authors from "../util/author"
 
 const Sidebar = ({ author, authorFluid }) => (
   <div>
     {author && (
       <Card>
-        <Img className="card-image-top" fluid={authorFluid} />
+        <Img className="card-image-top" fluid={authorFluid} maxHeight="200" />
         <CardBody>
           <CardTitle className="text-center text-uppercase mb-3 text-md">
             {author.name}
@@ -64,6 +67,13 @@ const Sidebar = ({ author, authorFluid }) => (
               </li>
             </ul>
           </div>
+          <Button
+            classname="text-uppercase"
+            color="outline-secondary"
+            href={`/author/${slugify(authors[0].name)}`}
+          >
+            View posts
+          </Button>
         </CardBody>
       </Card>
     )}
@@ -77,10 +87,10 @@ const Sidebar = ({ author, authorFluid }) => (
     <Card>
       <CardBody>
         <CardTitle className="text-center text-uppercase">
-          Advertisement
+          {/* Advertisement */}
         </CardTitle>
         <img
-          src="https://source.unsplash.com/random/320x200"
+          src="https://source.unsplash.com/320x200/?technology"
           alt="advert"
           style={{ width: "100%" }}
         ></img>

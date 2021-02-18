@@ -8,6 +8,5 @@ export const onServiceWorkerUpdateReady = () => {
     if (answer === true) {
       window.location.reload()
     } 
-    
     window.location.reload()
 }

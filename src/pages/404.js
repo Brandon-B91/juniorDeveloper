@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 
 const NotFoundPage = () => (
-  <Layout pageTitle="oops, something went wrong.">
+  <Layout className="d-flex" pageTitle="oops, something went wrong.">
     <h1>404: Not Found</h1>
     <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
   </Layout>

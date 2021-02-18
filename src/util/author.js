@@ -9,7 +9,6 @@ const authors = [
     linkedin: "https://linkedin.com/in/brandon-brown91",
     twitter: "https://twitter.com/brandonb91",
     github: "https://github.com/Brandon-B91",
-    // <i class="fab fa-github"></i>
   },
 ]
 

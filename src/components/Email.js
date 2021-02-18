@@ -47,7 +47,7 @@ function Email() {
       <button
         type="submit"
         onClick={handleSubmit}
-        className="btn btn-outline-secondary text-uppercase mt-3"
+        className="btn btn-outline-secondary text-uppercase mt-4"
       >
         Subscribe
       </button>

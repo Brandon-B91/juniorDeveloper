@@ -85,7 +85,7 @@ const SinglePost = ({ data, pageContext }) => {
               <i className="fab fa-twitter fa-2x"></i>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               href={
                 "https://plus.google.com/share?Url=" +
@@ -98,7 +98,7 @@ const SinglePost = ({ data, pageContext }) => {
             >
               <i className="fab fa-google fa-2x"></i>
             </a>
-          </li>
+          </li> */}
           <li>
             <a
               href={

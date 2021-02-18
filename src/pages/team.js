@@ -14,7 +14,7 @@ const TeamPage = () => (
         <img
           src={BrandonImage}
           style={{ maxWidth: "100%" }}
-          alt="John profile"
+          alt="Brandons profile"
         />
       </div>
       <div className="col-md-8">
@@ -33,6 +33,16 @@ const TeamPage = () => (
         </Card>
       </div>
     </Row>
+    <Card>
+      <CardTitle className="text-center mt-3 text-uppercase">Interested in joining the team?</CardTitle>
+        <CardBody>
+          If you're interested in joining the team or would like to contribute to the writing 
+          here we would love for you to reach out so we can talk about it more. This page is dedicated to 
+          more than just "Web" we would love to diversiy what we cover as far as many fields as possible.
+          Do you work with python? Great! what about Java or Ruby? do you do more like Wordpress development? 
+          Well we want you to write for us. 
+        </CardBody>
+      </Card>
   </Layout>
 )
 

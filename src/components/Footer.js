@@ -9,17 +9,17 @@ const Footer = () => (
       </p>
     <div className="footer-social-links">
       <ul className="social-links-list">
-        <li>
+        {/* <li>
           <a
-            href="https://facebook.com"
+            href="https://facebook.com/jr"
             target="_blank"
             rel="noopener noreferrer"
             className="facebook"
           >
             <i className="fab fa-facebook-f fa-2x"></i>
           </a>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <a
             href="https://facebook.com"
             target="_blank"
@@ -28,10 +28,10 @@ const Footer = () => (
           >
             <i className="fab fa-twitter fa-2x"></i>
           </a>
-        </li>
+        </li> */}
         <li>
           <a
-            href="https://facebook.com"
+            href="https://instagram.com/jrdevsblog"
             target="_blank"
             rel="noopener noreferrer"
             className="instagram"
