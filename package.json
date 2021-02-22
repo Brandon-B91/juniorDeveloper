@@ -10,11 +10,13 @@
     "eslint": "^7.16.0",
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",
+    "gatsby-plugin-advanced-sitemap": "^1.6.0",
     "gatsby-plugin-catch-links": "^2.6.0",
     "gatsby-plugin-google-analytics": "^2.11.0",
     "gatsby-plugin-mailchimp": "^5.2.2",
     "gatsby-plugin-manifest": "^2.6.1",
     "gatsby-plugin-offline": "^3.4.0",
+    "gatsby-plugin-preload-fonts": "^1.9.0",
     "gatsby-plugin-prettier-eslint": "^1.0.4",
     "gatsby-plugin-pwainstall": "^1.1.2",
     "gatsby-plugin-react-helmet": "^3.4.0",
@@ -46,7 +48,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "preload-fonts": "gatsby-preload-fonts"
   },
   "repository": {
     "type": "git",

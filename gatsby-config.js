@@ -4,8 +4,10 @@ module.exports = {
         titleTemplate: `< jrDevBlog />`,
         description: `Where juniorDevelopers come to talk about all things TechnoWizardry and Mechanical wtichcraft.`,
         author: `Brandon Brown`,
+        siteUrl: 'https://www.jrdevsblog.com',
     },
     plugins: [
+        'gatsby-plugin-advanced-sitemap',
         `gatsby-plugin-react-helmet`,
         'gatsby-plugin-sass',
         'gatsby-plugin-catch-links',
@@ -90,5 +92,6 @@ module.exports = {
             trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || "none",
           }
         },
+        'gatsby-plugin-preload-fonts',
     ],
 }
