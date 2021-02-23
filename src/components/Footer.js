@@ -56,7 +56,7 @@ const Footer = () => (
             rel="noopener noreferrer"
             className="instagram"
           >
-            <i class="fas fa-envelope fa-2x"></i>
+            <i className="fas fa-envelope fa-2x"></i>
           </a>
         </li>
       </ul>

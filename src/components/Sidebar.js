@@ -84,10 +84,10 @@ const Sidebar = ({ author, authorFluid }) => (
         </CardTitle>
       </CardBody>
     </Card>
-    <Card>
+    {/* <Card>
       <CardBody>
         <CardTitle className="text-center text-uppercase">
-          {/* Advertisement */}
+          Advertisement
         </CardTitle>
         <img
           src="https://source.unsplash.com/320x200/?technology"
@@ -95,7 +95,7 @@ const Sidebar = ({ author, authorFluid }) => (
           style={{ width: "100%" }}
         ></img>
       </CardBody>
-    </Card>
+    </Card> */}
     <Card>
       <CardBody>
         <CardTitle className="text-center text-uppercase mb-3">

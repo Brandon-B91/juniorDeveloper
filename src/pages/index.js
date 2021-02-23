@@ -3,14 +3,15 @@ import Layout from "../components/layout"
 import { StaticQuery, graphql } from "gatsby"
 import Post from "../components/Post"
 import PaginationLinks from "../components/PaginationLinks"
+import SEO from "../components/seo"
 
-
-const IndexPage = () => {
+const IndexPage = ({ site }) => {
   const postsPerPage = 5
   let numberOfPages
 
   return (
     <Layout>
+      <SEO title={"Tech blog"}></SEO>
       <h1 className="text-center">{"< jrDevsBlog /> "}</h1>
       <StaticQuery
         query={indexQuery}
