@@ -25,11 +25,13 @@ I didn't really learn a lot from the section they had on Bootstrap which was act
 
 So to wrap things up bootstrap has a lot of uses that can make our lives a lot easier as developers. The down side is I've heard alot of developers and blogs and so on say the samething about it.
 
-> Sites built with bootstrap tend to look the same all around and evenutally give a very bland feeling.
+> "Sites built with bootstrap tend to look the same all around and evenutally give a very bland feeling."
 
 This is a valid point and to add to it I think that as developers we need to push the envelope and keep inovating that is what makes our jobs so much fun!
 
-look out for part 2 coming soon!
+**look out for part 2 coming soon!**
+
+
 
 
 
