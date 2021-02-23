@@ -30,7 +30,7 @@ So to wrap things up bootstrap has a lot of uses that can make our lives a lot e
 
 This is a valid point and to add to it I think that as developers we need to push the envelope and keep inovating that is what makes our jobs so much fun!
 
-look out for part 2 coming soon!
+look out for part 2 coming soon!gastby
 
 
 
