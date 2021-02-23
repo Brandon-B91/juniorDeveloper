@@ -68,7 +68,7 @@ const indexQuery = graphql`
           fields {
             slug
           }
-          excerpt
+          excerpt(format: PLAIN, pruneLength: 150, truncate: true)
         }
       }
     }
