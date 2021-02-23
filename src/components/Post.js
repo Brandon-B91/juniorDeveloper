@@ -31,7 +31,7 @@ const Post = ({ title, author, slug, date, body, fluid, tags }) => {
           <span className="text-danger">{author}</span>
         </CardSubtitle>
         <CardText>{body}</CardText>
-        <ul className="post-tags">
+        <ul className="post-tags d-flex flex-wrap">
           {tags.map(tag => (
             <li key={tag}>
               <Link to={`/tag/${slugify(tag)}`}>

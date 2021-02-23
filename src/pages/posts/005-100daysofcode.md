@@ -7,7 +7,6 @@ tags:
   - web
   - mini series
   - 100DaysofCode
-  - challenge
 ---
 
 # 100 Days of code challenge
@@ -24,13 +23,13 @@ I didn't really learn a lot from the section they had on Bootstrap which was act
 
 2. How to use "rows", and "cols" This section I feel is a bit deeper than was explained in the short section. I think I will revist this more in the future.
 
-So to wrap things up bootstrap has a lot of uses that can make our lives a lot easier as developrts. The down side is I've heard alot of developers blogs and so on say the samething about it.
+So to wrap things up bootstrap has a lot of uses that can make our lives a lot easier as developers. The down side is I've heard alot of developers and blogs and so on say the samething about it.
 
 > Sites built with bootstrap tend to look the same all around and evenutally give a very bland feeling.
 
 This is a valid point and to add to it I think that as developers we need to push the envelope and keep inovating that is what makes our jobs so much fun!
 
-look out for part 2 coming soon!gastby
+look out for part 2 coming soon!
 
 
 
