@@ -1,4 +1,3 @@
 
-export const onServiceWorkerUpdateReady = () => {
+export const onServiceWorkerUpdateReady = () => 
     window.location.reload()
-}
