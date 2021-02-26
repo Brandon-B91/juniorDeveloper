@@ -5,14 +5,13 @@ import Post from "../components/Post"
 import PaginationLinks from "../components/PaginationLinks"
 import SEO from "../components/seo"
 
-const IndexPage = ({ site }) => {
-  const postsPerPage = 10
+const IndexPage = () => {
+  const postsPerPage = 5
   let numberOfPages
 
   return (
-    <Layout>
-      <SEO title={"Front end web developer blog"}></SEO>
-        <h2 className="text-center"> {`< jrDevsBlog >`}</h2>
+    <Layout pageTitle=" < jrDevsBlog />">
+      <SEO title="Home" keywords={[`gatsby`, `react`, `javascript`, `html`, `css`, `front end`, `sass`, `application`, `pwa`, `progressive web app`, `junior developer`, `junior dev`]}></SEO>
       <StaticQuery
         query={indexQuery} 
         render={data => {
@@ -43,10 +42,10 @@ const IndexPage = ({ site }) => {
 }
 
 const indexQuery = graphql`
-  query {
+  query indexQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      limit: 10
+      limit: 5
     ) {
       totalCount
       edges {
