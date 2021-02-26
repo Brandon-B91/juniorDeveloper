@@ -7,16 +7,20 @@ import {
   CardText,
   CardSubtitle,
   CardBody,
+  Row,
 } from "reactstrap"
 import Img from "gatsby-image"
 import { slugify } from "../util/utilityFunctions"
 
 const Post = ({ title, author, slug, date, body, fluid, tags }) => {
   return (
-    <Card>
+    <Card className="shadow">
       <Link to={`/${slug}/`}>
         <Img className="card-image-top" fluid={fluid} />
       </Link>
+      <Row className="d-flex justify-content-center">
+      <hr />
+      </Row>
       <CardBody>
         <CardTitle>
           <Link

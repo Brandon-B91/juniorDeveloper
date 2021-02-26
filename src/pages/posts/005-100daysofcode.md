@@ -6,7 +6,7 @@ image: '../../images/images-front/100days.jpg'
 tags:
   - web
   - mini series
-  - 100DaysofCode
+  - 100 Days of Code
 ---
 
 # 100 Days of code challenge

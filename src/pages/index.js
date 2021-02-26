@@ -11,8 +11,16 @@ const IndexPage = ({ site }) => {
 
   return (
     <Layout>
-      <SEO title={"Tech blog"}></SEO>
-      <h1 className="text-center">{"< jrDevsBlog /> "}</h1>
+      <SEO title={"Front end web developer blog"}></SEO>
+      {/* <h1 className="text-center">{"< jrDevsBlog /> "}</h1> */}
+      <h2 className="text-center mb-3"> Welcome to {`< jrDevsBlog />`} </h2>
+      {/* <div className="row d-flex justify-content-center">
+        <div className="col-sm-11 text-center bg-white mb-3">
+          <p>
+          
+          </p>
+        </div>
+      </div> */}
       <StaticQuery
         query={indexQuery}
         render={data => {
@@ -59,7 +67,7 @@ const indexQuery = graphql`
             tags
             image {
               childImageSharp {
-                fluid(maxWidth: 600) {
+                fluid(maxWidth: 500, quality: 100) {
                   ...GatsbyImageSharpFluid
                 }
               }
@@ -68,7 +76,7 @@ const indexQuery = graphql`
           fields {
             slug
           }
-          excerpt(format: PLAIN, pruneLength: 150, truncate: true)
+          excerpt(format: PLAIN, pruneLength: 180, truncate: true)
         }
       }
     }
