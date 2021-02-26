@@ -6,23 +6,15 @@ import PaginationLinks from "../components/PaginationLinks"
 import SEO from "../components/seo"
 
 const IndexPage = ({ site }) => {
-  const postsPerPage = 5
+  const postsPerPage = 10
   let numberOfPages
 
   return (
     <Layout>
       <SEO title={"Front end web developer blog"}></SEO>
-      {/* <h1 className="text-center">{"< jrDevsBlog /> "}</h1> */}
-      <h2 className="text-center mb-3"> Welcome to {`< jrDevsBlog />`} </h2>
-      {/* <div className="row d-flex justify-content-center">
-        <div className="col-sm-11 text-center bg-white mb-3">
-          <p>
-          
-          </p>
-        </div>
-      </div> */}
+        <h2 className="text-center"> {`< jrDevsBlog >`}</h2>
       <StaticQuery
-        query={indexQuery}
+        query={indexQuery} 
         render={data => {
           numberOfPages = Math.ceil(
             data.allMarkdownRemark.totalCount / postsPerPage
@@ -54,7 +46,7 @@ const indexQuery = graphql`
   query {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      limit: 5
+      limit: 10
     ) {
       totalCount
       edges {
@@ -67,7 +59,7 @@ const indexQuery = graphql`
             tags
             image {
               childImageSharp {
-                fluid(maxWidth: 500, quality: 100) {
+                fluid(maxWidth: 600) {
                   ...GatsbyImageSharpFluid
                 }
               }
