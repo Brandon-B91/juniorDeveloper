@@ -32,7 +32,7 @@ Let's talk about HTML5
 
 In the code above is a basic html5 skeleton. Let's go ahead and break down what exactly we see here and whats going on.  
 
-Also feel free to copy the code and work along we are going to make a small project by the time we are done here that will utulize HTML5 Css3 and vanilla js.  
+Also feel free to copy the code and work along we are going to make a small project by the time we are done here that will utilize HTML5 Css3 and vanilla js.  
 
 First off let's talk about writing comments in html5 they look like this open with 
 ```html

@@ -34,7 +34,7 @@ Once we get a little more into React the next post will focus on this more.
 
 Well until next time... Happy coding!  
 
-**Stay tuned for part 3**
+**Stay tuned for part 3gatb**
 
 *If you'd like to join the community and make your own posts on here and share your experiences Reach to me VIA social media or Email and I'd be more than happy to feature your writings!*
 
