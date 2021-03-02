@@ -1,5 +1,5 @@
 ---
-title: "100 Days of Code part 2"
+title: "100 Days of Code 2"
 date: 2021-3-02 08:20:00
 author: "Brandon Brown"
 image: '../../images/images-front/100daysofcode2.png'
