@@ -11,7 +11,7 @@ const IndexPage = ({ description, title }) => {
 
   return (
     <Layout pageTitle=" < jrDevsBlog />">
-      <SEO title={title} description={description} keywords={[`gatsby`, `react`, `javascript`, `html`, `css`, `front end`, `sass`, `application`, `pwa`, `progressive web app`, `junior developer`, `junior dev`]}></SEO>
+      <SEO title="home" description="Junior developer blog" keywords={[`gatsby`, `react`, `javascript`, `html`, `css`, `front end`, `sass`, `application`, `pwa`, `progressive web app`, `junior developer`, `junior dev`]}></SEO>
       <StaticQuery
         query={indexQuery} 
         render={data => {
