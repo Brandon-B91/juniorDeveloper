@@ -2,7 +2,7 @@
 title: "Javascript"
 date: 2021-2-21 19:15:00
 author: "Brandon Brown"
-image: '../../images/images-front/jslogo.jpg'
+image: '../../images/images-front/jslogo.png'
 tags:
   - web
   - javascript

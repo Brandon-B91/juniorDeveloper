@@ -2,7 +2,7 @@
 title: "Html5 in depth"
 date: 2021-2-28 12:07:00
 author: "Brandon Brown"
-image: '../../images/images-front/html5indepth.png'
+image: '../../images/images-front/indepthhtml.png'
 tags:
   - html5
   - refernce

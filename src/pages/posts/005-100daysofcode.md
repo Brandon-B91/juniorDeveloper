@@ -2,7 +2,7 @@
 title: "100 Days of Code"
 date: 2021-2-22 20:17:00
 author: "Brandon Brown"
-image: '../../images/images-front/100days.jpg'
+image: '../../images/images-front/100days.png'
 tags:
   - web
   - mini series
