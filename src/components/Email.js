@@ -27,6 +27,7 @@ function Email() {
       </p>
       <div>
         <Input
+          className="email-form"
           type="email"
           onChange={handleChange}
           value={email}
