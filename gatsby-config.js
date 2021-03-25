@@ -5,6 +5,7 @@ module.exports = {
     description: `A blog by junior developers, talking about things we have struggled with, tips and tricks from what we have learned.`,
     author: `Brandon Brown`,
     url: "https://www.jrdevsblog.com",
+    siteUrl: "https://www,jrdevsblog.com",
     image: "src/images/code-icon.svg",
     twitterUsername: "",
   },
