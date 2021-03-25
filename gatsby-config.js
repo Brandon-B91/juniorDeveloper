@@ -1,10 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: `< jrDevsBlog />`,
-    titleTemplate: `< jrDevBlog />`,
+    titleTemplate: `%s - Junior developers blog`,
     description: `A blog by junior developers, talking about things we have struggled with, tips and tricks from what we have learned.`,
     author: `Brandon Brown`,
-    siteUrl: "https://www.jrdevsblog.com",
+    url: "https://www.jrdevsblog.com",
+    image: "src/images/code-icon.svg",
+    twitterUsername: "",
   },
   plugins: [
     "gatsby-plugin-advanced-sitemap",
