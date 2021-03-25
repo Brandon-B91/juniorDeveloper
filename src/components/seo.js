@@ -66,7 +66,7 @@ function SEO({
                 keywords.length > 0
                   ? {
                       name: 'keywords',
-                      content: keywords.join(', '),
+                      content: keywords.join(`gatsby`, `react`, `javascript`, `html`, `css`, `front end`, `sass`, `application`, `pwa`, `progressive web app`, `junior developer`, `junior dev`),
                     }
                   : []
               )

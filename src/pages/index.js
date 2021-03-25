@@ -5,13 +5,13 @@ import Post from "../components/Post"
 import PaginationLinks from "../components/PaginationLinks"
 import SEO from "../components/seo"
 
-const IndexPage = ({ description, title }) => {
+const IndexPage = ({ description, data }) => {
   const postsPerPage = 5
   let numberOfPages
 
   return (
     <Layout pageTitle=" < jrDevsBlog />">
-      <SEO title="home" description="Junior developer blog" keywords={[`gatsby`, `react`, `javascript`, `html`, `css`, `front end`, `sass`, `application`, `pwa`, `progressive web app`, `junior developer`, `junior dev`]}></SEO>
+      <SEO title="junior developers blog" description="Junior developer blog" keywords={[`gatsby`, `react`, `javascript`, `html`, `css`, `front end`, `sass`, `application`, `pwa`, `progressive web app`, `junior developer`, `junior dev`]}></SEO>
       <StaticQuery
         query={indexQuery} 
         render={data => {
