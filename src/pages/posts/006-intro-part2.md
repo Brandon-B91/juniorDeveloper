@@ -35,7 +35,7 @@ After some time I did fall out of the programming world. Life happens so let's j
 
 Well he was willing to help me even offered to pay for me to take some online classes. I wasn't really sure of what I was getting myself into I was working two jobs and had a significant other who took up a lot of my time. Sad to say only a few weeks of an hour or two here and there. Yeah I know some dedication right? Then some snags with syntax and it not being very clear on how it should be written I got frustrated and quit.  
 
-With hind sight now I see if I would have spent a few seconds on google I would have found my issue quickly and then moved forward.
+With hind sight now I see if I would have spent a few seconds on google I would have resolved my issue quickly and then moved forward.
 
 I don't know why but at this point I felt like if I had to google something then I was doing it wrong. I look back now and laugh because I spend as much time on google or more as I do writing code. hahahah maybe that is just me.
 
