@@ -5,7 +5,7 @@ import Post from "../components/Post"
 import PaginationLinks from "../components/PaginationLinks"
 import SEO from "../components/seo"
 
-const IndexPage = ({ description, data }) => {
+const IndexPage = () => {
   const postsPerPage = 5
   let numberOfPages
 
