@@ -10,8 +10,8 @@ const IndexPage = () => {
   let numberOfPages
 
   return (
-    <Layout pageTitle=" < jrDevsBlog />">
-      <SEO title="junior developers blog" description="Junior developer blog" keywords={[`gatsby`, `react`, `javascript`, `html`, `css`, `front end`, `sass`, `application`, `pwa`, `progressive web app`, `junior developer`, `junior dev`]}></SEO>
+    <Layout pageTitle="< jrDevsBlog />">
+      <SEO title="junior developers blog" description="Web and frontend development blog, let's talk all things techno wizardry and mechanical witcraft"></SEO>
       <StaticQuery
         query={indexQuery} 
         render={data => {
