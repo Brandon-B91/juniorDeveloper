@@ -97,12 +97,6 @@ module.exports = {
         head: true
       },
     },
-    {
-      resolve: `gatsby-plugin-google-adsense`,
-      options: {
-        publisherId: `ca-pub-9588070657732142`
-      }
-    },
     "gatsby-plugin-preload-fonts",
     "gatsby-plugin-dark-mode",
   ],
