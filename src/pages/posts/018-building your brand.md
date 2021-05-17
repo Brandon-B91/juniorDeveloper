@@ -1,6 +1,6 @@
 ---
 title: "Building your brand"
-date: 2021-14-5 09:22:00
+date: 2021-5-14 09:22:00
 author: "Brandon Brown"
 image: '../../images/images-front/Building your brand..png'
 tags:
