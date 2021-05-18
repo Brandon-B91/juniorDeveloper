@@ -42,8 +42,8 @@ Well that is it this was a small section but still important in it's own right.
 
 If you would like to go back and catch up on this then follow the links below!.
 
-- [Part One](http://localhost:8000/html5-in-depth/)
-- [Part Two](http://localhost:8000/html5-in-depth-part-2/)
+- [Part One](https://www.jrdevsblog.com/html5-in-depth/)
+- [Part Two](https://www.jrdevsblog.com/html5-in-depth-part-2/)
 
 **Stay tuned for part 4**
 

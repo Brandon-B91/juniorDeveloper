@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 import Post from '../components/Post'
 import { graphql } from 'gatsby'
 import authors from '../util/author'
+import SEO from "../components/seo"
 
 const authorPosts = ({ data, pageContext }) => {
   const { totalCount } = data.allMarkdownRemark
@@ -15,6 +16,8 @@ const authorPosts = ({ data, pageContext }) => {
       postAuthor={author}
       authorImageFluid={data.file.childImageSharp.fluid}
     >
+    <SEO title={author} />
+
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <Post
           key={node.id}

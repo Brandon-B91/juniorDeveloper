@@ -1,9 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 import { Card } from "reactstrap"
 
 const AboutPage = () => (
   <Layout pageTitle="About us">
+    <SEO title="ABout" />
+
     <Card className="p-3">
       Well to put it simply I am lerning web development with no degree. Here
       comes the buzzword "self-taught", I know this can come with some negative

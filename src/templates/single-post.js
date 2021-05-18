@@ -31,6 +31,7 @@ const SinglePost = ({ data, pageContext }) => {
         <Img
           className="card-image-top"
           fluid={post.image.childImageSharp.fluid}
+          alt="image text"
         ></Img>
         <CardBody>
           <CardSubtitle>

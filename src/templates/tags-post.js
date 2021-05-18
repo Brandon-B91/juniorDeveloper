@@ -3,6 +3,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Post from '../components/Post'
+import SEO from "../components/seo"
 
 const tagPosts = ({ data, pageContext }) => {
   const { tag } = pageContext
@@ -13,6 +14,8 @@ const tagPosts = ({ data, pageContext }) => {
 
   return (
     <Layout pageTitle={pageHeader}>
+    <SEO title={pageContext} />
+
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <Post
           key={node.id}
