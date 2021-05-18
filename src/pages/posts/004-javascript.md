@@ -7,7 +7,6 @@ tags:
   - web
   - javascript
   - reference
-  - es6
 ---
 
 # Javascript 

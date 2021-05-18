@@ -4,7 +4,7 @@ date: 2021-4-25 21:10:00
 author: "Brandon Brown"
 image: '../../images/images-front/indepthhtml3.png'
 tags:
-  - html5
+  - html
   - reference
   - project
 ---

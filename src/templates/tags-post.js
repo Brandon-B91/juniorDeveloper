@@ -15,7 +15,6 @@ const tagPosts = ({ data, pageContext }) => {
   return (
     <Layout pageTitle={pageHeader}>
     <SEO title={pageContext} />
-
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <Post
           key={node.id}
