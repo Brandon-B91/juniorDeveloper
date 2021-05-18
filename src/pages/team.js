@@ -14,7 +14,7 @@ const TeamPage = () => (
         <img
           src={BrandonImage}
           style={{ maxWidth: "100%" }}
-          alt="Brandons profile"
+          alt="Brandons profile image"
         />
       </div>
       <div className="col-md-8">
