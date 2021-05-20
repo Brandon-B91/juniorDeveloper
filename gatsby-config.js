@@ -65,7 +65,13 @@ module.exports = {
         ],
       },
     },
-
+    {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        host: 'https://www.jrdevsblog.com',
+        sitemap: "https://www.jrdevsblog.com/sitemap.xml"
+      }
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
