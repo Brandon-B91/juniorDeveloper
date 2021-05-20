@@ -9,7 +9,7 @@ tags:
   - project
 ---
 
-Let's get right into part 3 here in the post [clickhere](http://localhost:8000/html5-in-depth-part-2/) We added some images to our website which at the moment are way to large for our website. We added and talked about the significance of the "alt" tag so now we are going to add our footer to the site and then our social links so we can connect with our visitors on any platform they prefer.
+Let's get right into part 3 here in the post [clickhere](https://www.jrdevsblog.com/html5-in-depth-part-3/) We added some images to our website which at the moment are way to large for our website. We added and talked about the significance of the "alt" tag so now we are going to add our footer to the site and then our social links so we can connect with our visitors on any platform they prefer.
 
 So what we are looking to do here is finish the basic skeleton of our website the header the main section and the footer. 
 
