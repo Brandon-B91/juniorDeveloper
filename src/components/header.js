@@ -21,18 +21,20 @@ const Header = ({ siteTitle }) => {
         <div className="container">
           <NavbarBrand href="/">{siteTitle}</NavbarBrand>
           <ThemeToggler>
-          {({ theme, toggleTheme }) => (
-            <div className="dark-button">
-              <input
-              type="checkbox"
-              id="toggle"
-              onChange={e => toggleTheme(e.target.checked ? "dark" : "light")}
-              checked={theme === "dark"}
-              />
-              <label for="toggle"></label>
-            </div>
-          )}
-        </ThemeToggler>
+            {({ theme, toggleTheme }) => (
+              <div className="dark-button">
+                <input
+                  type="checkbox"
+                  id="toggle"
+                  onChange={e =>
+                    toggleTheme(e.target.checked ? "dark" : "light")
+                  }
+                  checked={theme === "dark"}
+                />
+                <label for="toggle"></label>
+              </div>
+            )}
+          </ThemeToggler>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -45,9 +47,12 @@ const Header = ({ siteTitle }) => {
               <NavItem>
                 <NavLink href="/about">About</NavLink>
               </NavItem>
+              <NavItem>
+                
+              </NavItem>
             </Nav>
           </Collapse>
-        </div>  
+        </div>
       </Navbar>
     </div>
   )
