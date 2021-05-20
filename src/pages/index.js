@@ -29,6 +29,7 @@ const IndexPage = () => {
                   date={node.frontmatter.date}
                   body={node.excerpt}
                   fluid={node.frontmatter.image.childImageSharp.fluid}
+                  alt={node.frontmatter.title}
                   tags={node.frontmatter.tags}
                 />
               ))}
