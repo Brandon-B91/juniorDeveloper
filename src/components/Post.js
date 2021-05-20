@@ -11,12 +11,13 @@ import {
 } from "reactstrap"
 import Img from "gatsby-image"
 import { slugify } from "../util/utilityFunctions"
+import { node } from "prop-types"
 
 const Post = ({ title, author, slug, date, body, fluid, tags }) => {
   return (
     <Card className="shadow">
       <Link to={`/${slug}/`}>
-        <Img className="card-image-top" fluid={fluid} />
+        <Img className="card-image-top" fluid={fluid} alt={title} />
       </Link>
       <Row className="d-flex justify-content-center">
       <hr />
