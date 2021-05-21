@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Card } from "reactstrap"
+import RecentPosts from "../components/RecentPost"
 
 const AboutPage = () => (
   <Layout pageTitle="About us">
@@ -18,6 +19,7 @@ const AboutPage = () => (
       ways you can reach out to me all my social media is linked. You can E-mail
       me or leave a comment on one of the posts and we can talk!
     </Card>
+    <RecentPosts></RecentPosts>
   </Layout>
 )
 

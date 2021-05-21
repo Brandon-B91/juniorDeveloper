@@ -4,6 +4,8 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { Badge, Button } from 'reactstrap'
 import { slugify } from '../util/utilityFunctions'
+import RecentPosts from "../components/RecentPost"
+
 
 const tagsPage = ({ pageContext }) => {
   const { tags, tagPostCounts } = pageContext
@@ -19,6 +21,7 @@ const tagsPage = ({ pageContext }) => {
           </li>
         ))}
       </ul>
+      <RecentPosts></RecentPosts>
     </Layout>
   )
 }

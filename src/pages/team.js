@@ -5,6 +5,8 @@ import authors from "../util/author"
 import { Button, Card, CardText, CardBody, CardTitle, Row } from "reactstrap"
 import BrandonImage from "../images/Brandon.jpeg"
 import { slugify } from "../util/utilityFunctions"
+import RecentPost from "../components/RecentPost"
+import RecentPosts from "../components/RecentPost"
 
 const TeamPage = () => (
   <Layout pageTitle="Our Team">
@@ -43,6 +45,7 @@ const TeamPage = () => (
           Well we want you to write for us. 
         </CardBody>
       </Card>
+      <RecentPosts></RecentPosts>
   </Layout>
 )
 
