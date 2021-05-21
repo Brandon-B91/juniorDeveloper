@@ -11,7 +11,7 @@ import {
 } from "reactstrap"
 import Img from "gatsby-image"
 import { slugify } from "../util/utilityFunctions"
-import { node } from "prop-types"
+
 
 const Post = ({ title, author, slug, date, body, fluid, tags }) => {
   return (

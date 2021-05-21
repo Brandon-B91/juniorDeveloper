@@ -16,7 +16,7 @@ const authorPosts = ({ data, pageContext }) => {
       postAuthor={author}
       authorImageFluid={data.file.childImageSharp.fluid}
     >
-    <SEO title={data.allMarkdownRemark.frontmatter.title} />
+    <SEO title={author} />
 
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <Post
