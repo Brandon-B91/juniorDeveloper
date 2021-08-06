@@ -39,4 +39,12 @@ I start trouble shooting right away to figure out whats happening, first thing I
 
 well by this point it's pretty late around 2am and I have a full workday that morning. Time to sleep, I reach out to snipcarts support team and let them know the issue. after some back and forth they advise i'm using the test api key and not the live. Am i going crazy? I go back and look in the dashboard and it's the live key same thing that is in my gatsby.config file.... So what is wrong??? 
 
+Well not to bore too much for Whatever reason when I was pushing my site updates to github and netlify was auto publishing them they key was not updating but other changes were updating? Yeah not really sure what happened there so I ended up completely removing my site from netlify, then re adding the github repo and it fixed the issue.
+
+A bit long winded on this one so I will be splitting it into two parts. 
+
+*If you'd like to join the community and make your own posts on here and share your experiences Reach to me VIA social media or Email and I'd be more than happy to feature your writings!*
+
+
+
 
