@@ -1,5 +1,5 @@
 ---
-title: "Snipcart and gatsby."
+title: "Snipcart and gatsby part 1"
 date: 2021-7-29 14:20:00
 author: "Brandon Brown"
 image: '../../images/images-front/gatsby-netlify-ecommerce.png'
