@@ -70,7 +70,7 @@ Now this is pretty straight forward GatsbyImage is the pliugin we are using to d
 
 The issue I was getting here is I have my site and markdown files set up so that they will pull more than one image from the markdown file and create a slideshow to show off the product in more than one way. So when I was creating some social share links the facebook share was alwasy selecting the last image in the slideshow. Wellllll... Clearly this is an issue because it doesn't show the image I want, Secondly with twitter nothing at all was being shown for the image, So the card appeared and the title of the item and the description but no image. Why is that? I'm going to be honset I don't know the exact reason for this however I have an idea and I will try to explain.
 
-Gatsbyjs offers some nifty little tools like getiamge() and getSrc(), I'm sure by now you can see where this is going... Yeah I had to switch out the call I was using getImage() for getSrc(), this actualyl solved the issue for both the facebook and twitter social share buttons. I think this was happening due to the way their "share" features pull the informations from what was sent to it.
+Gatsbyjs offers some nifty little tools like getimage() and getSrc(), I'm sure by now you can see where this is going... Yeah I had to switch out the call I was using getImage() for getSrc(), this actually solved the issue for both the facebook and twitter social share buttons. I think this was happening due to the way their "share" features pull the informations from what was sent to it.
 
 Anyways this is the first part of this and a bit long. I will update a part 2 soo on some of the small things I had an issue with. 
 
