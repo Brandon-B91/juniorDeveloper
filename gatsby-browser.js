@@ -1,4 +1,4 @@
 
-export const onServiceWorkerUpdateReady = () => {
-    window.location.reload();
-}
+exports.onServiceWorkerUpdateFound = () 
+=> window.location.reload(true);
+
