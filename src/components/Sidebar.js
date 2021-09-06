@@ -35,7 +35,7 @@ const Sidebar = ({ author, authorFluid }) => (
                   <i className="fab fa-facebook-f fa-lg"></i>
                 </a>
               </li> */}
-              <li>
+              {/* <li>
                 <a
                   href={author.twitter}
                   target="_blank"
@@ -44,7 +44,7 @@ const Sidebar = ({ author, authorFluid }) => (
                 >
                   <i className="fab fa-twitter fa-lg"></i>
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a
                   href={author.instagram}

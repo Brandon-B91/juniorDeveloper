@@ -61,7 +61,7 @@ const SinglePost = ({ data, pageContext }) => {
                 baseUrl +
                 pageContext.slug
               }
-              className="facebook"
+              className="facebook text-light"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -79,7 +79,7 @@ const SinglePost = ({ data, pageContext }) => {
                 "&via" +
                 "twitterHandle"
               }
-              className="twitter"
+              className="twitter text-light"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -107,7 +107,7 @@ const SinglePost = ({ data, pageContext }) => {
                 baseUrl +
                 pageContext.slug
               }
-              className="linkedin"
+              className="linkedin text-light"
               target="_blank"
               rel="noopener noreferrer"
             >
