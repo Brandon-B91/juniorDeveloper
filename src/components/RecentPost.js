@@ -1,16 +1,16 @@
 import React from "react"
-import Layout from "../components/layout"
 import { StaticQuery, graphql } from "gatsby"
 import Post from "../components/Post"
-import SEO from "../components/seo"
 
 const RecentPosts = () => {
 
   return (
-    <Layout pageTitle="Check out our latest posts">
-      <SEO title="junior developers blog" description="Web and frontend development blog, let's talk all things techno wizardry and mechanical witchcraft"></SEO>
+    // <Layout pageTitle="Check out our latest posts">
+      // <SEO title="junior developers blog" description="Web and frontend development blog, let's talk all things techno wizardry and mechanical witchcraft"></SEO>
+      <div>
+        <h2 class="text-center mb-3">Check out our latest posts!</h2>
       <StaticQuery
-        query={RecentQuery} 
+        query={RecentPost} 
         render={data => {
           return (
             <div>
@@ -30,12 +30,12 @@ const RecentPosts = () => {
           )
         }}
       />
-    </Layout>
+      </div>
   )
 }
 
-const RecentQuery = graphql`
-  query RecentQuery {
+const RecentPost = graphql`
+  query RecentPost {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       limit: 2
