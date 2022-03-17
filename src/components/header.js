@@ -17,24 +17,10 @@ const Header = ({ siteTitle }) => {
   const toggle = () => setIsOpen(!isOpen)
   return (
     <div>
-      <Navbar fixed="top" light expand="sm">
+      <Navbar fixed="top" light expand="xs">
         <div className="container">
           <NavbarBrand href="/">{siteTitle}</NavbarBrand>
-          <ThemeToggler>
-            {({ theme, toggleTheme }) => (
-              <div className="dark-button">
-                <input
-                  type="checkbox"
-                  id="toggle"
-                  onChange={e =>
-                    toggleTheme(e.target.checked ? "dark" : "light")
-                  }
-                  checked={theme === "dark"}
-                />
-                <label for="toggle"></label>
-              </div>
-            )}
-          </ThemeToggler>
+
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -50,6 +36,21 @@ const Header = ({ siteTitle }) => {
             </Nav>
           </Collapse>
         </div>
+        <ThemeToggler>
+            {({ theme, toggleTheme }) => (
+              <div className="dark-button">
+                <input
+                  type="checkbox"
+                  id="toggle"
+                  onChange={e =>
+                    toggleTheme(e.target.checked ? "dark" : "light")
+                  }
+                  checked={theme === "dark"}
+                />
+                <label for="toggle"></label>
+              </div>
+            )}
+          </ThemeToggler>
       </Navbar>
     </div>
   )
