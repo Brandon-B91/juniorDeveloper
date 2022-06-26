@@ -29,9 +29,9 @@ So how do we access this now that it is stored? Take a look below by calling it 
 console.log(localStorage.getItem(key));
 ```
 
-This will log 'value' into the console since that is the value we associated with our 'key'
+This will log 'value' into the console since that is the value we associated with our 'key'.
 
-Well all this seems pretty simple right? Sure it does, save something into localStorage then go to another page or where you want it to be stored and bam we have an add to favorites right? Well... This is where things can get a little complicated. Here's why... I used this in a Pwa I created that lets you browse random movies and see where yo watch them or search for a specific movie and see where to watch it as well (this also works for TV shows as well.) So as you can imagine in the "Favorites section" we are going to want to show an image of the title the name and I chose even to add the description. 
+Well all this seems pretty simple right? Sure it does, save something into localStorage then go to another page or where you want it to be stored and bam we have an add to favorites right? Well... This is where things can get a little complicated. Here's why... I used this in a Pwa I created that lets you browse random movies and see where you watch them or search for a specific movie and see where to watch it as well (this also works for TV shows as well.) So as you can imagine in the "Favorites section" we are going to want to show an image of the title the name and I chose even to add the description. 
 
 Let's take a look at how this is an issue.. I was using react so if we created a simple add to favorites function which was added onClick. 
 
@@ -74,7 +74,7 @@ It looks complicated but in software what we need to do is brek things down into
         localStorage.getItem("arrObject").length > 0
       )
 ```
-What we are doing here is saying **if** there is no object saved inlocal storage already then create it.
+What we are doing here is saying **if** there is no object saved in local storage already then create it.
 
 ```
         arrObject = JSON.parse(localStorage.getItem("arrObject"));
@@ -105,4 +105,4 @@ In this section we used the .push method which is us now saying after everything
 
 That is where we will end this tutroial in part 2 we are going to show how to map through the information and then display it to the page. 
 
-*If you'd like to join the community and make your own posts on here and share your experiences Reach to me VIA social media or Email and I'd be more than happy to feature your writings!*
+*If you'd like to join the community and make your own posts on here and share your experiences Reach to me VIA social media or Email and I'd be more than happy to feature your writings!* 
