@@ -99,6 +99,15 @@ module.exports = {
         head: true
       },
     },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "GA-TRACKING_ID", process.env.GOOGLE_4  || "none"
+
+        ]
+      }
+    },
     "gatsby-plugin-preload-fonts",
     "gatsby-plugin-dark-mode",
   ],
