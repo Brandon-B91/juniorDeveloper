@@ -104,8 +104,10 @@ module.exports = {
       options: {
         trackingIds: [
           "GA-TRACKING_ID", process.env.GOOGLE_4  || "none"
-
-        ]
+        ],
+        pluginConfig: {
+          head: true,
+        },
       }
     },
     "gatsby-plugin-preload-fonts",
