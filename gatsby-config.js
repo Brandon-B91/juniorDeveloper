@@ -68,9 +68,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
-        host: 'https://www.jrdevsblog.com',
-        sitemap: "https://www.jrdevsblog.com/sitemap.xml"
-      }
+        host: "https://www.jrdevsblog.com",
+        sitemap: "https://www.jrdevsblog.com/sitemap.xml",
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -96,19 +96,17 @@ module.exports = {
       resolve: "gatsby-plugin-google-analytics",
       options: {
         trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || "none",
-        head: true
+        head: true,
       },
     },
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingIds: [
-          "GA-TRACKING_ID", process.env.GOOGLE_4  || "none"
-        ],
+        trackingIds: ["GA-TRACKING_ID", process.env.GOOGLE_4 || "none"],
         pluginConfig: {
           head: true,
         },
-      }
+      },
     },
     "gatsby-plugin-preload-fonts",
     "gatsby-plugin-dark-mode",
